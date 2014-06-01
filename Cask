@@ -17,3 +17,4 @@
 (depends-on "quickrun")
 
 (depends-on "php-mode")
+(depends-on "markdown-mode")
