@@ -3,6 +3,7 @@
 (tool-bar-mode 0)
 
 (setq make-backup-files nil)
+(setq delete-auto-save-files t)
 
 ;; CommandとAltキー入れ替え
 (setq ns-command-modifier (quote meta))
