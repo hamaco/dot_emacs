@@ -3,3 +3,4 @@
 
 ;; smartchr
 (define-key php-mode-map (kbd ">") (smartchr '(">" " => " " >= ")))
+(define-key php-mode-map (kbd "=") (smartchr '(" = " " == " " === " "=")))
