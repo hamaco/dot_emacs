@@ -13,3 +13,7 @@
 (global-set-key [left]  'windmove-left)               ;; 左のウィンドウに移動
 (global-set-key [up]    'windmove-up)                 ;; 上のウィンドウに移動
 (global-set-key [down]  'windmove-down)               ;; 下のウィンドウに移動
+
+
+;; ddskk
+(global-set-key (kbd "C-x C-j") 'skk-mode)

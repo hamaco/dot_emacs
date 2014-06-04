@@ -2,7 +2,6 @@
 ; (add-to-list 'Info-additional-directory-list "~/.emacs.d/info")
 
 (require 'skk-autoloads)
-(global-set-key (kbd "C-x C-j") 'skk-mode)
 
 ; for AquaSKK
 (setq skk-server-portnum 1178)
