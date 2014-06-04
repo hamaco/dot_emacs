@@ -17,3 +17,9 @@
 
 ;; ddskk
 (global-set-key (kbd "C-x C-j") 'skk-mode)
+
+(add-hook 'dired-load-hook
+  (lambda ()
+    (load "dired-x")
+    (global-set-key (kbd "C-x C-j") 'skk-mode)
+    ))
