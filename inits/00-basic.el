@@ -1,3 +1,5 @@
+(set-language-environment       'Japanese)
+(prefer-coding-system           'utf-8)
 (setq inhibit-startup-message t)
 (menu-bar-mode 0)
 (tool-bar-mode 0)
