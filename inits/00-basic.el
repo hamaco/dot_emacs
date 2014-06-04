@@ -1,3 +1,5 @@
+(require 'cl)
+
 (set-language-environment       'Japanese)
 (prefer-coding-system           'utf-8)
 (setq inhibit-startup-message t)
