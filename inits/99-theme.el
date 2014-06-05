@@ -1,3 +1,7 @@
+(load-theme 'tango-dark t t)
+(enable-theme 'tango-dark)
+
+
 ;; for tango-dark
 
 ;; magit.el

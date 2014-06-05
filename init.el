@@ -14,10 +14,6 @@
 (cask-initialize)
 
 
-;; theme
-(load-theme 'tango-dark t t)
-(enable-theme 'tango-dark)
-
 
 ;; init-loader.el
 (defvar init-loader-show-log-after-init nil)
