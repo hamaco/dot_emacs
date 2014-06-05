@@ -23,3 +23,7 @@
     (load "dired-x")
     (global-set-key (kbd "C-x C-j") 'skk-mode)
     ))
+
+(eval-after-load 'magit
+                 '(progn
+                    (define-key git-commit-mode-map (kbd "C-j") 'skk-mode)))
