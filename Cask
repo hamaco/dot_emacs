@@ -8,6 +8,7 @@
 (depends-on "auto-save-buffers-enhanced")
 (depends-on "editorconfig")
 (depends-on "smartchr" :git "https://github.com/hamaco/emacs-smartchr.git")
+(depends-on "popwin")
 
 (depends-on "helm")
 (depends-on "helm-ls-git")
