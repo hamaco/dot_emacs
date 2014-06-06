@@ -4,6 +4,8 @@
 
 (depends-on "init-loader")
 
+(depends-on "moe-theme")
+
 (depends-on "bind-key")
 (depends-on "auto-save-buffers-enhanced")
 (depends-on "editorconfig")
