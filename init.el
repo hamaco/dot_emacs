@@ -17,10 +17,8 @@
 
 ;; init-loader.el
 (defvar init-loader-show-log-after-init nil)
+(custom-set-variables '(init-loader-show-log-after-init 'error-only))
 (init-loader-load (concat user-emacs-directory "inits"))
-
-(if (not (equal (init-loader-error-log) ""))
-  (init-loader-show-log))
 
 
 ;; debug
