@@ -15,6 +15,12 @@
 (global-set-key [down]  'windmove-down)               ;; 下のウィンドウに移動
 
 
+(require 'sequential-command)
+(define-sequential-command seq-home
+                           beginning-of-line back-to-indentation)
+(global-set-key "\C-a" 'seq-home)
+
+
 ;; ddskk
 (global-set-key (kbd "C-x C-j") 'skk-mode)
 

@@ -15,6 +15,7 @@
 ; (depends-on "smartchr" :git "https://github.com/hamaco/emacs-smartchr.git")
 (depends-on "key-combo")
 (depends-on "popwin")
+(depends-on "sequential-command")
 
 (depends-on "helm")
 (depends-on "helm-ls-git")
