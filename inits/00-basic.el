@@ -21,4 +21,6 @@
 (setq ns-command-modifier (quote meta))
 (setq ns-alternate-modifier (quote super))
 
+(setq kill-whole-line t) ;; 行頭で`C-k`した時はVimの`dd`と同じ挙動にする
+
 (setq-default indent-tabs-mode nil)
